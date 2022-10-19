@@ -28,7 +28,7 @@ while caesar_code:
     shift = shift - 26
   
   caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
-  restart = input("Do you want to start the program again?(Yes or No)")
+  restart = input("Do you want to start the program again?(Yes or No)\n")
   
   if restart.lower() == "yes":
     caesar_code = True
